@@ -31,6 +31,10 @@ p {
     display: flex;
 }
 
+.navbar-mobile {
+    display: none;
+}
+
 .nav {
     align-items: center;
     position: relative;
@@ -945,6 +949,9 @@ p {
         width: 30vw;
         top: 3vw;
         right: 11vw;
+    }
+    .navbar-mobile {
+        display: inline;
     }
     .hamburger {
         position: relative;
