@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hamburger.css">
 
 </head>
 
@@ -43,10 +44,57 @@
                     </div>
                 </ul>
             </nav>
+            <!-- NAVBAR MOBILE-->
+            <nav class="navbar-mobile">
+                <ul>
+                    <li><img class="navbar-mobile-logo" src="image/logotype.png" alt=""></li>
+                    <li>
+                        <button style="outline: none;" class="hamburger hamburger--spring" type="button" id="hamburger-id">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+                    </li>
+                </ul>
+                <div class="navbar-mobile-menu">
+                    <ul class="mobile-navbar-links">
+                        <a style="color: white;" href="#cource_program">
+                            <li>
+                                <p class="text-center mob-n-links">Программа курса</p>
+                                <hr class="navbar-hr">
+                            </li>
+                        </a>
+                        <a style="color: white;" href="#author">
+                            <li>
+                                <p class="text-center mob-n-links">Автор</p>
+                                <hr class="navbar-hr">
+                            </li>
+                        </a>
+                        <a style="color: white;" href="#">
+                            <li>
+                                <p class="text-center mob-n-links">Отзывы</p>
+                                <hr class="navbar-hr">
+                            </li>
+                        </a>
+                        <a style="color: white;" href="#buy">
+                            <li>
+                                <p class="text-center mob-n-links">Покупка</p>
+                                <hr class="navbar-hr">
+                            </li>
+                        </a>
+                        <a style="color: white;" href="#">
+                            <li>
+                                <p class="text-center mob-n-links">Задать вопрос</p>
+                                <hr class="navbar-hr">
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
             <div class="header-main">
                 <p>Авторский курс от Павла “<span style="color: #FF1469;">ObezbasheR</span>” Ерохина</p>
-                <p style="font-weight: 600; font-size: 2.5vw; padding-top: 0.8vw;">КИБЕРСПОРТИВНЫЙ</p>
-                <p style="font-weight: 800; font-size: 3vw;color: #FF1469;">КУРС</p>
+                <p class="cource-title">КИБЕРСПОРТИВНЫЙ</p>
+                <p class="cource-desc">КУРС</p>
                 <p class="header-main-text">Моя работа предназначена для парней, которые искренне хотят <span>побеждать</span>, развиваться и завоевать <span>широкую славу</span> в мобильном гейминге!</p>
                 <p class="header-main-text">Я доступно и интересно объясню Вам принцип действия каждого игрового механизма, открывая новые <span> неожиданные возможности. </span></p>
                 <p class="header-main-text">Информацию, данную в курсе, вы не найдёте ни в одном интернет-источнике!</p>
@@ -70,9 +118,11 @@
                             <p class="program-card-text">Как реально устроен киберспорт в Standoff 2?</p>
                             <p class="program-card-text">Как зарекомендовать себя и попасть в сильную команду?</p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">1</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">1</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -80,9 +130,11 @@
                         <div class="card-text">
                             <p class="program-card-text">Командная игра. Ты – будущий идеальный тиммейт! </p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">2</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">2</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -91,9 +143,11 @@
                             <p class="program-card-text"></p>
                             <p class="program-card-text">Личная игра</p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">3</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">3</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -104,9 +158,11 @@
                             <p class="program-card-text"></p>
                             <p class="program-card-text">Стрельба. Как достичь предела своих возможностей? </p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">4</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">4</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -115,9 +171,11 @@
                             <p class="program-card-text"></p>
                             <p class="program-card-text">Понимание игры. Стань Вангой на карте!</p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">5</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">5</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -125,9 +183,11 @@
                         <div class="card-text">
                             <p class="program-card-text">Пейдж – твой путь к популярности</p>
                         </div>
-                        <div class="card-day-div d-flex">
-                            <p>ДЕНЬ</p>
-                            <div class="card-day">6</div>
+                        <div class="day-adaptive">
+                            <div class="card-day-div d-flex">
+                                <p>ДЕНЬ</p>
+                                <div class="card-day">6</div>
+                            </div>
                         </div>
                         <div class="card-circle"></div>
                     </div>
@@ -186,8 +246,8 @@
     <section class="sale" id="buy">
         <div class="container-fluid">
             <div class="program-body">
-                <p style="font-weight: 500;">Покупка</p>
-                <p style="font-weight: 700; font-size: 2vw;">Максимально доступная цена!</p>
+                <p class="sale-title">Покупка</p>
+                <p class="sale-desc">Максимально доступная цена!</p>
                 <div class="program-header-line"></div>
                 <div class="sale-body d-flex">
                     <div class="sale-body-text">
@@ -198,30 +258,32 @@
                         <p><span>4.</span> Получите звание в матчмейкинге не ниже Elite <img src="image/sale-icon-4.png" alt=""></p>
                         <p><span>5.</span> Найдёте или создадите команду, с которой достигните успеха! <img src="image/sale-icon-5.png" alt=""></p>
                     </div>
-                    <div class="sale-body-card">
-                        <img class="fire-img" src="image/fire.png" alt="">
-                        <div class="sale-card-text text-center">
-                            <H2>Покупка курса</H2>
-                            <p>Старт: <span>12 января</span> </p>
-                            <p>Места ограничены!</p>
-                        </div>
-                        <div class="sale-card-price text-center">
-                            <p class="sale-price-old">1999</p>
-                            <img class="sale-price-line" src="image/price-line.png" alt="">
-                            <p class="sale-price">999<span>рублей</span></p>
-                            <p class="sale-date">ДО 5 ЯНВАРЯ!</p>
-                        </div>
-                        <div class="sale-button">
-                            <div class="boost-buy d-flex">
-                                <div class="boost-button">
-                                    <p>КУПИТЬ СЕЙЧАС</p>
-                                </div>
-                                <div class="boost-price">
-                                    <img src="image/buy-icon.png" alt="">
+                    <div class="sale-card-adaptive">
+                        <div class="sale-body-card">
+                            <img class="fire-img" src="image/fire.png" alt="">
+                            <div class="sale-card-text text-center">
+                                <H2>Покупка курса</H2>
+                                <p>Старт: <span>12 января</span> </p>
+                                <p>Места ограничены!</p>
+                            </div>
+                            <div class="sale-card-price text-center">
+                                <p class="sale-price-old">1999</p>
+                                <img class="sale-price-line" src="image/price-line.png" alt="">
+                                <p class="sale-price">999<span>рублей</span></p>
+                                <p class="sale-date">ДО 5 ЯНВАРЯ!</p>
+                            </div>
+                            <div class="sale-button">
+                                <div class="boost-buy d-flex">
+                                    <div class="boost-button">
+                                        <p>КУПИТЬ СЕЙЧАС</p>
+                                    </div>
+                                    <div class="boost-price">
+                                        <img src="image/buy-icon.png" alt="">
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card-circle-buy"></div>
                         </div>
-                        <div class="card-circle-buy"></div>
                     </div>
                 </div>
             </div>
