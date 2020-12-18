@@ -1,0 +1,730 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+/*HEADER*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0rem;
+}
+
+.header {
+    background-image: url(/image/header_bg.png);
+    height: 50vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav {
+    align-items: center;
+    position: relative;
+    left: 7vw;
+}
+
+.navbar-items {
+    color: white;
+    position: relative;
+    display: flex;
+    left: 40vw;
+}
+
+.navbar-items li {
+    margin-right: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navbar-items li:hover {
+    color: #FF1469;
+}
+
+.header-main {
+    color: white;
+    position: relative;
+    padding-top: 10vw;
+    left: 8.3vw;
+}
+
+.header-main-text {
+    width: 40vw;
+    padding-top: 1vw;
+}
+
+.header-main-text span {
+    font-weight: 700;
+}
+
+.header-buttons {
+    position: relative;
+    padding-top: 2.5vw;
+}
+
+.header-button-red {
+    background: #FF1469;
+    color: white;
+    padding: 0.8vw 2vw 0.8vw 2vw;
+    border: none;
+    font-size: 1vw;
+    font-weight: 300;
+    border-radius: 1.5vw;
+    margin-right: 1vw;
+}
+
+.header-button-transparent {
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: linear-gradient(to right, #FF1469 50%, transparent 50%);
+    background-size: 201% 100%;
+    background-position: right bottom;
+    transition: all 0.7s ease;
+    text-align: center;
+    transition: 0.4s;
+    color: white;
+    font-size: 1vw;
+    font-weight: 300;
+    padding: 0.8vw 2.1vw 0.8vw 2.1vw;
+    border: 2.5px solid #FF1469;
+    border-radius: 1.5vw;
+}
+
+.header-button-transparent:hover {
+    background-position: left bottom;
+}
+
+
+/*PROGRAM*/
+
+.program {
+    background-image: url(/image/program-bg.png);
+    height: 60vw;
+    position: relative;
+    background-repeat: no-repeat;
+    color: #1B1B1B;
+    background-size: 100%;
+}
+
+.program-body {
+    padding-top: 5vw;
+    position: relative;
+    left: 9vw;
+}
+
+.program-header-line {
+    width: 4vw;
+    position: relative;
+    top: 0.5vw;
+    height: 0.3vw;
+    background: #FF1469;
+}
+
+.program-cards {
+    display: flex;
+    top: 5vw;
+    position: relative;
+    margin-bottom: 4vw;
+}
+
+.program-card {
+    background: white;
+    border: 3px solid #FF1469;
+    border-radius: 2vw;
+    width: 18vw;
+    text-align: center;
+    height: 18vw;
+    margin-right: 12vw;
+    transition: 0.4s;
+    cursor: pointer;
+    color: #1B1B1B;
+}
+
+.program-card:hover {
+    background: #FF1469;
+    -webkit-box-shadow: 0px 0px 79px -18px #FF1469;
+    -moz-box-shadow: 0px 0px 79px -18px #FF1469;
+    box-shadow: 0px 0px 79px -18px #FF1469;
+    color: white;
+}
+
+.card-day-div {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    width: 18vw;
+    padding-top: 4vw;
+    left: 33%;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.card-day-div p {
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-right: 1vw;
+}
+
+.program-card-text {
+    width: 14vw;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+
+.program-card-text br {
+    position: relative;
+}
+
+.card-text {
+    padding-top: 3vw;
+    height: 10vw;
+    padding-left: 1.8vw;
+}
+
+.card-day {
+    background: #FF1469;
+    width: 1.8vw;
+    height: 1.8vw;
+    color: white;
+    transition: 0.4s;
+}
+
+.program-card:hover .card-day {
+    color: #FF1469;
+    background: white;
+}
+
+.card-circle {
+    width: 1.1vw;
+    height: 1.1vw;
+    border-radius: 20vw;
+    background: #FF1469;
+    position: relative;
+    left: 88%;
+    bottom: 1%;
+    transition: 0.4s;
+}
+
+.program-card:hover .card-circle {
+    background: white;
+}
+
+
+/*LERAN*/
+
+.learn {
+    background: url(/image/learn-bg.png);
+    height: 50vw;
+    position: relative;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100%;
+}
+
+.learn-body {
+    position: relative;
+    padding-top: 8vw;
+}
+
+.learn-text {
+    width: 30vw;
+    padding-bottom: 2vw;
+    cursor: pointer;
+}
+
+.learn-text-title {
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.learn-text-desc {
+    padding-top: 0.5vw;
+    font-size: 0.8vw;
+}
+
+.learn-text-line {
+    height: 5vw;
+    width: 0.7vw;
+    right: 1vw;
+    position: relative;
+    border-radius: 1vw;
+    transition: 0.4s;
+    background: transparent;
+}
+
+.learn-text:hover .learn-text-line {
+    background: #FF1469;
+    box-shadow: 0px 0px 30px #FF1469;
+}
+
+.learn-info {
+    position: relative;
+    bottom: 33vw;
+    left: 60vw;
+}
+
+.leader-desc {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    right: 25vw;
+    top: 18vw;
+}
+
+.leader-desc span {
+    color: #FF1469;
+}
+
+
+/*SALE*/
+
+.sale {
+    background: url(/image/sale-bg.png);
+    height: 50vw;
+    position: relative;
+    background-repeat: no-repeat;
+    color: #1B1B1B;
+    background-size: 100%;
+}
+
+.sale-body-text {
+    position: relative;
+    padding-top: 7vw;
+    font-size: 1.2vw;
+    width: 35vw;
+}
+
+.sale-text-title {
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+
+.sale-body-text span {
+    color: #FF1469;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sale-body-text p {
+    padding-bottom: 1vw;
+}
+
+.sale-body-card {
+    color: white;
+    height: 32vw;
+    width: 23vw;
+    background: #7067FF;
+    border-radius: 1.2vw;
+    position: relative;
+    left: 23vw;
+    bottom: 2vw;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+.fire-img {
+    position: relative;
+    left: 20vw;
+    top: 0.8vw;
+}
+
+.sale-card-text {
+    position: relative;
+    padding-top: 2vw;
+}
+
+.sale-card-text span {
+    font-weight: 600;
+}
+
+.sale-card-price {
+    padding-top: 3vw;
+}
+
+.sale-price {
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sale-price span {
+    font-size: 1.3vw;
+    font-weight: 500;
+    position: relative;
+    left: 0.5vw;
+}
+
+.sale-price-old {
+    position: relative;
+    right: 4.7vw;
+    top: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+}
+
+.sale-price-line {
+    position: relative;
+    right: 4.7vw;
+    top: 0.7vw;
+}
+
+.sale-date {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boost-buy {
+    position: relative;
+    top: 1.5vw;
+    left: 1.4vw;
+    color: white;
+    cursor: pointer;
+}
+
+.sale-button {
+    left: 2vw;
+    top: 1vw;
+    position: relative;
+}
+
+.boost-button {
+    background: #1B1C29;
+    border: 3px solid white;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 310px;
+    background: linear-gradient(to right, #FF1469 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    margin-left: 10px;
+    transition: all 0.7s ease;
+    height: 60px;
+    transition: 0.4s;
+}
+
+.boost-button p {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    line-height: 128.4%;
+    top: 0.8vw;
+    right: 2vw;
+    position: relative;
+    text-align: center;
+}
+
+.boost-price {
+    width: 90px;
+    height: 60px;
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #7067FF 50%, #FF1469 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 18px;
+    position: absolute;
+    border: 3px solid white;
+    left: 12vw;
+    text-align: center;
+    transition: 0.4s;
+    z-index: 999;
+}
+
+.boost-price img {
+    position: relative;
+    top: 0.7vw;
+}
+
+.boost-buy:hover .boost-button {
+    background-position: left bottom;
+}
+
+.boost-buy:hover .boost-price {
+    background-position: left bottom;
+    border: 3px solid white;
+}
+
+.card-circle-buy {
+    background: white;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 10vw;
+    position: relative;
+    top: 4vw;
+    left: 1vw;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background: #0B0D34;
+    height: 25vw;
+}
+
+.footer-links {
+    position: relative;
+    left: 8vw;
+    padding-top: 2vw;
+}
+
+.footer-links-link {
+    color: white;
+    padding-top: 2vw;
+    font-size: 0.9vw;
+    font-weight: 300;
+    line-height: 2vw;
+    left: 0.5vw;
+    position: relative;
+}
+
+.footer-links-link span {
+    color: #FF1469;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.footer-nav {
+    color: white;
+    left: 65vw;
+    top: 2vw;
+    position: relative;
+    font-size: 0.9vw;
+    font-weight: 300;
+    line-height: 2vw;
+}
+
+.footer-nav span {
+    color: #FF1469;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.footer-line {
+    width: 80vw;
+    top: 6vw;
+    height: 0.1vw;
+    background: #676767;
+    left: 8.5vw;
+    position: relative;
+}
+
+.footer-author {
+    color: white;
+    left: 8.4vw;
+    position: relative;
+    top: 6.5vw;
+}
+
+.footer-author-link {
+    position: relative;
+    left: 49vw;
+}
+
+.footer-author-link span {
+    color: #FF1469;
+    font-weight: 500;
+}
+
+@media (max-width: 1700px) {
+    .leader-desc {
+        right: 28vw;
+        top: 20vw;
+    }
+    .learn-info {
+        position: relative;
+        bottom: 35vw;
+        left: 60vw;
+    }
+    .boost-button {
+        width: 280px;
+    }
+    .sale-button {
+        left: 1vw;
+        height: 55px;
+    }
+    .card-circle-buy {
+        width: 1.3vw;
+        height: 1.3vw;
+        top: 2.3vw;
+        left: 1vw;
+    }
+    .footer-author-link {
+        position: relative;
+        left: 45vw;
+    }
+    .boost-price {
+        height: 60px;
+    }
+}
+
+@media (max-width: 1530px) {
+    .navbar-items {
+        left: 35vw;
+    }
+    .leader-desc p {
+        font-size: 0.8vw;
+    }
+    .sale-card-text h2 {
+        font-size: 1.7vw;
+    }
+    .sale-card-price {
+        padding-top: 0vw;
+    }
+    .sale-price-old {
+        font-size: 1.1vw;
+        right: 4.2vw;
+    }
+    .sale-price-line {
+        width: 2.5vw;
+        right: 4.1vw;
+    }
+    .sale-price {
+        font-size: 3vw;
+    }
+    .boost-button {
+        background: #1B1C29;
+        border: 2px solid white;
+        box-sizing: border-box;
+        border-radius: 14px;
+        width: 250px;
+        background: linear-gradient(to right, #FF1469 50%, transparent 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        margin-left: 10px;
+        transition: all 0.7s ease;
+        height: 50px;
+        transition: 0.4s;
+    }
+    .boost-price {
+        height: 50px;
+        width: 70px;
+        border: 2px solid white;
+        border-radius: 14px;
+        left: 12.5vw;
+    }
+    .boost-price img {
+        width: 2vw;
+    }
+    .sale-button {
+        top: 2.5vw;
+        position: relative;
+    }
+    .card-circle-buy {
+        top: 6.3vw;
+    }
+    .footer-author-link {
+        position: relative;
+        left: 41vw;
+    }
+    .boost-button:hover {
+        border: 2px solid white;
+    }
+    .boost-price:hover {
+        border: 2px solid white;
+    }
+}
+
+@media (max-width: 1366px) {
+    .header-main p {
+        font-size: 1vw;
+    }
+    .navbar-items {
+        left: 30vw;
+        font-size: 1vw;
+    }
+    .learn-info img {
+        width: 20vw;
+    }
+    .learn-info {
+        left: 63vw;
+    }
+    .leader-desc {
+        right: 25vw;
+        top: 18vw;
+    }
+    .fire-img {
+        width: 2vw;
+    }
+    .boost-button {
+        width: 230px;
+    }
+    .boost-button p {
+        top: 1vw;
+    }
+    .card-circle-buy {
+        top: 6vw;
+    }
+    .footer-line {
+        top: 4vw;
+    }
+    .footer-author {
+        font-size: 1vw;
+        top: 5vw;
+    }
+    .footer-author-link {
+        left: 43vw;
+    }
+    .boost-button:hover {
+        border: 2px solid white;
+    }
+    .boost-price:hover {
+        border: 2px solid white;
+    }
+}
+
+@media (max-width: 1024px) {
+    .boost-button {
+        border: 1.5px solid white;
+        border-radius: 9px;
+        width: 165px;
+        height: 35px;
+    }
+    .boost-price {
+        border: 1.5px solid white;
+        border-radius: 9px;
+        height: 35px;
+        width: 50px;
+    }
+    .boost-price img {
+        position: relative;
+        top: 0.2vw;
+    }
+    .sale-price-old {
+        top: 3vw;
+    }
+    .sale-price-line {
+        right: 4vw;
+        top: 0.9vw;
+    }
+    .sale-button {
+        top: 1vw;
+    }
+    .card-circle-buy {
+        top: 2vw;
+    }
+    .header-button-transparent {
+        border: 1.5px solid #FF1469;
+    }
+    .leader-desc h5 {
+        font-size: 1.3vw;
+    }
+    .footer-nav {
+        left: 55vw;
+    }
+}
