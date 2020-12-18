@@ -19,7 +19,7 @@ p {
 }
 
 .header {
-    background-image: url(/image/header_bg.png);
+    background-image: url(/./image/header_bg.png);
     height: 50vw;
     background-repeat: no-repeat;
     width: 100vw;
@@ -114,7 +114,7 @@ p {
 /*PROGRAM*/
 
 .program {
-    background-image: url(/image/program-bg.png);
+    background-image: url(/./image/program-bg.png);
     height: 60vw;
     position: relative;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ p {
 /*LERAN*/
 
 .learn {
-    background: url(/image/learn-bg.png);
+    background: url(/./image/learn-bg.png);
     height: 50vw;
     position: relative;
     background-repeat: no-repeat;
@@ -296,7 +296,7 @@ p {
 /*SALE*/
 
 .sale {
-    background: url(/image/sale-bg.png);
+    background: url(/./image/sale-bg.png);
     height: 50vw;
     position: relative;
     background-repeat: no-repeat;
