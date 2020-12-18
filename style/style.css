@@ -720,6 +720,10 @@ p {
         width: 165px;
         height: 35px;
     }
+    body,
+    html {
+        overflow-x: hidden;
+    }
     .boost-price {
         border: 1.5px solid white;
         border-radius: 9px;
@@ -762,6 +766,10 @@ p {
         width: 15vw;
         position: relative;
         right: 1.5vw;
+    }
+    body,
+    html {
+        overflow-x: hidden;
     }
     .navbar-items {
         left: 27vw;
@@ -933,9 +941,405 @@ p {
     }
 }
 
+@media (max-width: 520px) {
+    .navbar {
+        display: none;
+    }
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .header {
+        height: 90vw;
+        background-size: cover;
+    }
+    li {
+        list-style-type: none;
+    }
+    .navbar-mobile-logo {
+        position: relative;
+        width: 30vw;
+        top: 3vw;
+        right: 7vw;
+    }
+    .navbar-mobile {
+        display: inline;
+    }
+    .hamburger {
+        position: relative;
+        left: 76vw;
+        bottom: 6vw;
+    }
+    .navbar-mobile-menu {
+        color: white;
+        display: inline-block;
+        height: 30vw;
+        position: absolute;
+        z-index: 999;
+        width: 83vw;
+        top: 20vw;
+        left: 9vw;
+        height: 0vw;
+        -webkit-transition: height 0.8s;
+        -moz-transition: height 0.8s;
+        transition: height 0.8s;
+    }
+    .mobile-background-active {
+        height: 75vw;
+        background: #7067FF !important;
+    }
+    .mobile-navbar-links {
+        height: 20vw;
+        position: relative;
+        right: 5vw;
+    }
+    .mobile-background-default {
+        height: 0vw !important;
+        background: white !important;
+    }
+    .navbar-mobile-menu ul>li {
+        margin-bottom: -3vw;
+        position: relative;
+        right: 4vw;
+        top: 5vw;
+    }
+    .navbar-links li:hover {
+        color: #FF1469;
+    }
+    .navbar-links li:hover .navbar-hr {
+        width: 100%;
+        line-height: 0vw;
+    }
+    .mob-n-links {
+        position: relative;
+        top: 2vw;
+    }
+    .header-main p {
+        font-size: 3vw;
+    }
+    .header-main-text {
+        width: 80vw;
+        font-size: 2vw !important;
+        padding-top: 1vw;
+    }
+    .header-buttons {
+        position: relative;
+        padding-top: 4.5vw;
+    }
+    .header-main {
+        color: white;
+        position: relative;
+        padding-top: 0vw;
+        left: 1.0vw;
+    }
+    .cource-title {
+        font-weight: 600;
+        font-size: 4.5vw !important;
+        padding-top: 0.8vw;
+    }
+    .cource-desc {
+        font-weight: 800;
+        font-size: 5vw !important;
+        color: #FF1469;
+    }
+    .header-button-red {
+        padding: 1.5vw 4vw 1.9vw 4vw;
+        font-size: 2.5vw;
+        border-radius: 3vw;
+    }
+    .header-button-transparent {
+        padding: 1.5vw 4vw 1.9vw 4vw;
+        font-size: 2.5vw;
+        border-radius: 3vw;
+    }
+    .program {
+        height: 150vw;
+        background-size: 200%;
+    }
+    .program-cards {
+        display: inline;
+    }
+    .program-card {
+        border: 1px solid #FF1469;
+        border-radius: 6vw;
+        width: 50vw;
+        text-align: center;
+        height: 50vw;
+        margin-bottom: 4vw;
+        transition: 0.4s;
+        cursor: pointer;
+        color: #1B1B1B;
+    }
+    .program-cards {
+        position: relative;
+        left: 20vw;
+    }
+    .program-card-text {
+        width: 15vw;
+        font-size: 2.7vw;
+        font-weight: 600;
+        width: 45vw;
+    }
+    .card-text {
+        padding-top: 8vw;
+        padding-left: 2.5vw;
+    }
+    .card-day-div p {
+        font-size: 3.7vw;
+    }
+    .card-day {
+        width: 4.2vw;
+        height: 4.2vw;
+        top: 0.5vw;
+        position: relative;
+        font-size: 3vw;
+    }
+    .card-day-div {
+        font-size: 1.3vw;
+    }
+    .day-adaptive {
+        position: relative;
+        top: 24vw;
+        right: 20vw;
+    }
+    .card-circle {
+        width: 3vw;
+        height: 3vw;
+        left: 88%;
+        top: 40%;
+    }
+    .program {
+        height: 350vw;
+    }
+    .learn {
+        height: 150vw;
+        background-size: 290%;
+    }
+    .learn-info {
+        position: relative;
+        top: 20vw;
+        left: 35vw;
+    }
+    .learn-text-title {
+        padding-top: 1vw;
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+    .learn-text-desc {
+        padding-top: 0.5vw;
+        font-size: 2.5vw;
+        width: 80vw;
+    }
+    .learn-buttons {
+        position: relative;
+        top: 5vw;
+        left: 7vw;
+    }
+    .header-button-red {
+        padding: 1.8vw 4.5vw 2.1vw 4.5vw;
+        font-size: 3vw;
+        border-radius: 3vw;
+    }
+    .header-button-transparent {
+        padding: 1.8vw 4.5vw 2.1vw 4.5vw;
+        font-size: 3vw;
+        border-radius: 3vw;
+    }
+    .learn-info img {
+        width: 40vw;
+    }
+    .learn-info {
+        position: relative;
+        top: 10vw;
+        left: 0vw;
+    }
+    .leader-desc {
+        right: 0vw;
+        text-align: left;
+        top: 10vw;
+    }
+    .leader-desc h5 {
+        font-size: 3vw;
+    }
+    .leader-desc p {
+        font-size: 1.9vw;
+    }
+    .leader-desc {
+        width: 50vw;
+    }
+    .sale {
+        height: 180vw;
+        background-repeat: repeat;
+        background-size: 200%;
+    }
+    .sale-title {
+        font-weight: 500;
+        font-size: 3.5vw;
+    }
+    .sale-desc {
+        font-weight: 700;
+        font-size: 3vw;
+    }
+    .sale-body-text p {
+        font-size: 3.2vw;
+    }
+    .sale-body-text {
+        width: 75vw;
+    }
+    .sale-body-text img {
+        width: 3.5vw;
+    }
+    .sale-card-adaptive {
+        position: relative;
+        right: 80vw;
+        top: 90vw;
+    }
+    .sale-body-card {
+        height: 70vw;
+        width: 50vw;
+        border-radius: 3vw;
+        position: absolute;
+        left: 26vw;
+        bottom: 6vw;
+    }
+    .fire-img {
+        width: 4vw;
+        left: 43vw;
+    }
+    .sale-card-text h2 {
+        font-size: 3.8vw;
+    }
+    .sale-card-text p {
+        font-size: 2vw;
+    }
+    .sale-price {
+        font-size: 8vw;
+    }
+    .sale-price span {
+        font-size: 2.3vw;
+    }
+    .sale-price-old {
+        top: 8vw;
+        font-size: 2.5vw;
+        right: 8.5vw;
+    }
+    .sale-price-line {
+        right: 8vw;
+        top: 2.5vw;
+        width: 5vw;
+    }
+    .sale-date {
+        font-size: 2vw;
+    }
+    .boost-button {
+        border: 1.5px solid white;
+        border-radius: 7px;
+        width: 177px;
+        height: 33px;
+    }
+    .boost-price {
+        border: 1.5px solid white;
+        border-radius: 7px;
+        height: 33px;
+        width: 45px;
+        left: 28vw;
+    }
+    .boost-price img {
+        position: relative;
+        top: 0vw;
+        right: 0.3vw;
+    }
+    .boost-price img {
+        width: 4vw;
+    }
+    .boost-button p {
+        top: 1.6vw;
+        right: 4vw;
+        font-size: 2.4vw;
+        font-weight: 500;
+    }
+    .card-circle-buy {
+        top: 10vw;
+        width: 4vw;
+        height: 4vw;
+        left: 43vw;
+    }
+    .boost-buy {
+        position: relative;
+        top: 5.5vw;
+        left: 3.5vw;
+        color: white;
+        cursor: pointer;
+    }
+    .boost-buy:hover .boost-price {
+        background-position: left bottom;
+        border: 1.5px solid white;
+    }
+    .boost-buy:hover .boost-button {
+        background-position: left bottom;
+        border: 1.5px solid white;
+    }
+    .footer {
+        height: 35vw;
+    }
+    .footer-links img {
+        width: 25vw;
+    }
+    .footer-links {
+        position: relative;
+        left: 0vw;
+        padding-top: 2vw;
+    }
+    .footer-links-link {
+        color: white;
+        padding-top: 2vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+        line-height: 3.5vw;
+        left: 1vw;
+        position: relative;
+    }
+    .footer-links-link span {
+        color: #FF1469;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+    .footer-nav {
+        left: 45vw;
+        top: 5vw;
+    }
+    .footer-nav span {
+        color: #FF1469;
+        font-size: 3.5vw;
+        padding-bottom: 1vw;
+        font-weight: 600;
+    }
+    .footer-nav a>p {
+        font-size: 1.5vw;
+        line-height: 3.5vw;
+    }
+    .footer-line {
+        top: 4vw;
+        left: 1vw;
+        width: 90vw;
+    }
+    .footer-author {
+        font-size: 1.5vw;
+        top: 5vw;
+        left: 1vw;
+    }
+    .footer-author-link {
+        left: 34vw;
+    }
+}
+
 @media (max-width: 414px) {
     .navbar {
         display: none;
+    }
+    body,
+    html {
+        overflow-x: hidden;
     }
     .header {
         height: 100vw;
@@ -1321,6 +1725,10 @@ p {
     .navbar {
         display: none;
     }
+    body,
+    html {
+        overflow-x: hidden;
+    }
     .header {
         height: 100vw;
         background-size: cover;
@@ -1700,6 +2108,10 @@ p {
     .navbar {
         display: none;
     }
+    body,
+    html {
+        overflow-x: hidden;
+    }
     .header {
         height: 100vw;
         background-size: cover;
@@ -1996,6 +2408,384 @@ p {
     .boost-price img {
         position: relative;
         top: 0vw;
+        right: 0.3vw;
+    }
+    .boost-price img {
+        width: 4vw;
+    }
+    .boost-button p {
+        top: 1.6vw;
+        right: 4vw;
+        font-size: 2.4vw;
+        font-weight: 500;
+    }
+    .card-circle-buy {
+        top: 3vw;
+        width: 4vw;
+        height: 4vw;
+        left: 43vw;
+    }
+    .boost-buy:hover .boost-price {
+        background-position: left bottom;
+        border: 1.5px solid white;
+    }
+    .boost-buy:hover .boost-button {
+        background-position: left bottom;
+        border: 1.5px solid white;
+    }
+    .footer {
+        height: 35vw;
+    }
+    .footer-links img {
+        width: 25vw;
+    }
+    .footer-links {
+        position: relative;
+        left: 0vw;
+        padding-top: 2vw;
+    }
+    .footer-links-link {
+        color: white;
+        padding-top: 2vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+        line-height: 3.5vw;
+        left: 1vw;
+        position: relative;
+    }
+    .footer-links-link span {
+        color: #FF1469;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+    .footer-nav {
+        left: 45vw;
+        top: 5vw;
+    }
+    .footer-nav span {
+        color: #FF1469;
+        font-size: 3.5vw;
+        padding-bottom: 1vw;
+        font-weight: 600;
+    }
+    .footer-nav a>p {
+        font-size: 1.5vw;
+        line-height: 3.5vw;
+    }
+    .footer-line {
+        top: 4vw;
+        left: 1vw;
+        width: 90vw;
+    }
+    .footer-author {
+        font-size: 1.5vw;
+        top: 5vw;
+        left: 1vw;
+    }
+    .footer-author-link {
+        left: 34vw;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar {
+        display: none;
+    }
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .header {
+        height: 100vw;
+        background-size: cover;
+    }
+    li {
+        list-style-type: none;
+    }
+    .navbar-mobile-logo {
+        position: relative;
+        width: 30vw;
+        top: 3vw;
+        right: 11vw;
+    }
+    .navbar-mobile-menu {
+        color: white;
+        display: inline-block;
+        height: 30vw;
+        position: absolute;
+        z-index: 999;
+        width: 83vw;
+        top: 20vw;
+        left: 9vw;
+        height: 0vw;
+        -webkit-transition: height 0.8s;
+        -moz-transition: height 0.8s;
+        transition: height 0.8s;
+    }
+    .mobile-background-active {
+        height: 90vw;
+        background: #7067FF !important;
+    }
+    .mobile-navbar-links {
+        height: 20vw;
+        position: relative;
+        right: 5vw;
+    }
+    .mobile-background-default {
+        height: 0vw !important;
+        background: white !important;
+    }
+    .navbar-mobile-menu ul>li {
+        margin-bottom: -3vw;
+        position: relative;
+        right: 4vw;
+        top: 5vw;
+    }
+    .navbar-links li:hover {
+        color: #FF1469;
+    }
+    .navbar-links li:hover .navbar-hr {
+        width: 100%;
+        line-height: 0vw;
+    }
+    .mob-n-links {
+        position: relative;
+        top: 2vw;
+    }
+    .header-main p {
+        font-size: 2.7vw;
+    }
+    .header-main-text {
+        width: 80vw;
+        font-size: 2vw !important;
+        padding-top: 1vw;
+    }
+    .header-main {
+        color: white;
+        position: relative;
+        padding-top: 0vw;
+        left: 1.0vw;
+    }
+    .cource-title {
+        font-weight: 600;
+        font-size: 4.5vw !important;
+        padding-top: 0.8vw;
+    }
+    .cource-desc {
+        font-weight: 800;
+        font-size: 5vw !important;
+        color: #FF1469;
+    }
+    .header-button-red {
+        padding: 1.5vw 4vw 1.9vw 4vw;
+        font-size: 2.5vw;
+        border-radius: 3vw;
+    }
+    .header-button-transparent {
+        padding: 1.5vw 4vw 1.9vw 4vw;
+        font-size: 2.5vw;
+        border-radius: 3vw;
+    }
+    .program {
+        height: 150vw;
+        background-size: 200%;
+    }
+    .program-cards {
+        display: inline;
+    }
+    .program-card {
+        border: 1px solid #FF1469;
+        border-radius: 6vw;
+        width: 50vw;
+        text-align: center;
+        height: 50vw;
+        margin-bottom: 4vw;
+        transition: 0.4s;
+        cursor: pointer;
+        color: #1B1B1B;
+    }
+    .program-cards {
+        position: relative;
+        left: 20vw;
+    }
+    .program-card-text {
+        width: 15vw;
+        font-size: 2.2vw;
+        font-weight: 600;
+        width: 35vw;
+    }
+    .card-text {
+        padding-top: 8vw;
+        padding-left: 7.5vw;
+    }
+    .card-day-div p {
+        font-size: 3.7vw;
+    }
+    .card-day {
+        width: 4.2vw;
+        height: 4.2vw;
+        top: 0.5vw;
+        position: relative;
+        font-size: 3vw;
+    }
+    .card-day-div {
+        font-size: 1.3vw;
+    }
+    .day-adaptive {
+        position: relative;
+        top: 24vw;
+        right: 20vw;
+    }
+    .card-circle {
+        width: 3vw;
+        height: 3vw;
+        left: 88%;
+        top: 40%;
+    }
+    .hamburger {
+        position: relative;
+        left: 62vw;
+        bottom: 9vw;
+    }
+    .program {
+        height: 350vw;
+    }
+    .learn {
+        height: 150vw;
+        background-size: 290%;
+    }
+    .learn-info {
+        position: relative;
+        top: 20vw;
+        left: 35vw;
+    }
+    .learn-text-title {
+        padding-top: 1vw;
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+    .learn-text-desc {
+        padding-top: 0.5vw;
+        font-size: 2.5vw;
+        width: 80vw;
+    }
+    .learn-buttons {
+        position: relative;
+        top: 5vw;
+        left: 7vw;
+    }
+    .header-button-red {
+        padding: 1.8vw 4.5vw 2.1vw 4.5vw;
+        font-size: 3vw;
+        border-radius: 3vw;
+    }
+    .header-button-transparent {
+        padding: 1.8vw 4.5vw 2.1vw 4.5vw;
+        font-size: 3vw;
+        border-radius: 3vw;
+    }
+    .learn-info img {
+        width: 40vw;
+    }
+    .learn-info {
+        position: relative;
+        top: 10vw;
+        left: 0vw;
+    }
+    .leader-desc {
+        right: 0vw;
+        text-align: left;
+        top: 10vw;
+    }
+    .leader-desc h5 {
+        font-size: 3vw;
+    }
+    .leader-desc p {
+        font-size: 1.9vw;
+    }
+    .leader-desc {
+        width: 50vw;
+    }
+    .sale {
+        height: 180vw;
+        background-repeat: repeat;
+        background-size: 200%;
+    }
+    .sale-title {
+        font-weight: 500;
+        font-size: 3.5vw;
+    }
+    .sale-desc {
+        font-weight: 700;
+        font-size: 3vw;
+    }
+    .sale-body-text p {
+        font-size: 3.2vw;
+    }
+    .sale-body-text {
+        width: 75vw;
+    }
+    .sale-body-text img {
+        width: 3.5vw;
+    }
+    .sale-card-adaptive {
+        position: relative;
+        right: 80vw;
+        top: 90vw;
+    }
+    .sale-body-card {
+        height: 70vw;
+        width: 50vw;
+        border-radius: 3vw;
+        position: absolute;
+        left: 26vw;
+        bottom: 6vw;
+    }
+    .fire-img {
+        width: 4vw;
+        left: 43vw;
+    }
+    .sale-card-text h2 {
+        font-size: 3.8vw;
+    }
+    .sale-card-text p {
+        font-size: 2vw;
+    }
+    .sale-price {
+        font-size: 8vw;
+    }
+    .sale-price span {
+        font-size: 2.3vw;
+    }
+    .sale-price-old {
+        top: 8vw;
+        font-size: 2.5vw;
+        right: 8.5vw;
+    }
+    .sale-price-line {
+        right: 8vw;
+        top: 2.5vw;
+        width: 5vw;
+    }
+    .sale-date {
+        font-size: 2vw;
+    }
+    .boost-button {
+        border: 1.5px solid white;
+        border-radius: 7px;
+        width: 100px;
+        height: 23px;
+    }
+    .boost-price {
+        border: 1.5px solid white;
+        border-radius: 7px;
+        height: 23px;
+        width: 40px;
+        left: 29.1vw;
+    }
+    .boost-price img {
+        position: relative;
+        bottom: 1vw;
         right: 0.3vw;
     }
     .boost-price img {
